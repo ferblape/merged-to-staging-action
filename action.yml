@@ -7,5 +7,4 @@ inputs:
 runs:
   using: 'docker'
   image: 'ruby:2.6'
-  main: 'lib/index.rb'
 
