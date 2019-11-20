@@ -13,6 +13,10 @@ require 'time'
 @repo = @repository["name"]
 @branch_name = @event["ref"].split("/").last
 
+puts "=================================="
+puts "GITHUB_TOKEN: #{GITHUB_TOKEN}"
+puts "=================================="
+
 @check_name = "Merged to Staging"
 
 @headers = {
