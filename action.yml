@@ -6,5 +6,5 @@ inputs:
     description: 'The GITHUB_TOKEN secret'
 runs:
   using: 'docker'
-  image: 'ruby:2.6'
+  image: 'Dockerfile'
 
